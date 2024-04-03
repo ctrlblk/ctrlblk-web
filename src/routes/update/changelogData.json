@@ -1,0 +1,36 @@
+[
+    {
+        "version": "0.1.0",
+        "date": "2024-01-01",
+        "githubLink": "https://github.com/ctrblk/ctrblock/releases/tag/0.1.0",
+        "changes": [
+            {
+                "description": "Added support for <code>example.com</code>.",
+                "issueSlug": "GitHub#1",
+                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/1"
+            },
+            {
+                "description": "Change someother thing <code>example.com</code>.",
+                "issueSlug": "GitHub#2",
+                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/2"
+            }
+        ]
+    },
+    {
+        "version": "0.2.0",
+        "date": "2024-02-01",
+        "githubLink": "https://github.com/ctrblk/ctrblock/releases/tag/0.2.0",
+        "changes": [
+            {
+                "description": "Added support for <code>example.com</code>.",
+                "issueSlug": "GitHub#3",
+                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/3"
+            },
+            {
+                "description": "Change someother thing <code>example.com</code>.",
+                "issueSlug": "GitHub#4",
+                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/4"
+            }
+        ]
+    }
+]
