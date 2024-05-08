@@ -52,7 +52,12 @@
         <TimelineItem title="CtrlBlk v{entry.version}" date="{formatDate(entry.date)}">
             <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 my-4">
                 {#each entry.changes as change}
-                <Li>{change.description} <A href="{change.issueLink}" target="_blank" class="text-gray-700">{change.issueSlug}</A></Li>
+                    <Li>
+                        {change.description}
+                        {#if change.githubLink }
+                            <A href="{change.githubLink}" target="_blank" class="text-gray-700">{change.githubSlug}</A>
+                        {/if}
+                    </Li>
                 {/each}
             </List>
             <Button href="{entry.githubLink}" color="alternative">

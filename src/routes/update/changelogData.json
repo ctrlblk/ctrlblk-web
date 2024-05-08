@@ -1,35 +1,34 @@
 [
+
     {
-        "version": "0.1.0",
-        "date": "2024-01-01",
-        "githubLink": "https://github.com/ctrblk/ctrblock/releases/tag/0.1.0",
+        "version": "0.2.0",
+        "date": "2024-05-07",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.2.0",
         "changes": [
             {
-                "description": "Added support for <code>example.com</code>.",
-                "issueSlug": "GitHub#1",
-                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/1"
+                "description": "Updated ctrblk-filters and uAssets dependency",
+                "githubSlug": "GitHub@96b98b8",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/96b98b8af725c3f4982a537f04772514f9ac15c6"
             },
             {
-                "description": "Change someother thing <code>example.com</code>.",
-                "issueSlug": "GitHub#2",
-                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/2"
+                "description": "Remove all non DNR filters that include a url pointing to a javascipt file",
+                "githubSlug": "GitHub@931398b",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/931398baf5ad1d4226ac291b1772b8540fa77d16"
+            },
+            {
+                "description": "Replace uBO's make-rulesets.js with \"inhouse\" ruleset creation script",
+                "githubSlug": "GitHub@e373d31",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/e373d319cd2b39dca198bdb9dee90abe920e0f28"
             }
         ]
     },
     {
-        "version": "0.2.0",
-        "date": "2024-02-01",
-        "githubLink": "https://github.com/ctrblk/ctrblock/releases/tag/0.2.0",
+        "version": "0.1.0",
+        "date": "2024-04-09",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.1.0",
         "changes": [
             {
-                "description": "Added support for <code>example.com</code>.",
-                "issueSlug": "GitHub#3",
-                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/3"
-            },
-            {
-                "description": "Change someother thing <code>example.com</code>.",
-                "issueSlug": "GitHub#4",
-                "issueLink": "https://github.com/ctrlblk/ctrlblock/issues/4"
+                "description": "Initial Release"
             }
         ]
     }
