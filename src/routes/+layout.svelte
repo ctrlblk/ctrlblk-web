@@ -5,7 +5,11 @@
 
 	import GitHub from '../components/icons/GitHub.svelte';
 
-	import { DEVELOPMENT } from '$lib/consts.js';
+	import {
+		DEVELOPMENT,
+		CWS_DOWNLOAD_URL,
+		GITHUB_URL,
+	 } from '$lib/consts.js';
 </script>
 
 <Navbar class="bg-gray-100 sm:px-8 py-4">
@@ -14,13 +18,13 @@
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">CtrlBlk</span>
 	</NavBrand>
 	<div class="flex md:order-2">
-		<Button target="_blank" href="https://chromewebstore.google.com/" size="sm">Download</Button>
+		<Button target="_blank" href="{CWS_DOWNLOAD_URL}" size="sm">Download</Button>
 	</div>
 
 	<NavUl >
 		<NavLi href="/">Home</NavLi>
 		<NavLi href="/about">About</NavLi>
-		<NavLi href="https://github.com/ctrlblk" target="_blank"><GitHub /></NavLi>
+		<NavLi href="{GITHUB_URL}" target="_blank"><GitHub /></NavLi>
 	</NavUl>
 </Navbar>
 

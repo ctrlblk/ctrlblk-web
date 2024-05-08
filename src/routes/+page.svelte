@@ -22,6 +22,10 @@
     ShieldCheckSolid,
   } from 'flowbite-svelte-icons';
 
+  import {
+	  CWS_DOWNLOAD_URL,
+  } from '$lib/consts.js';
+
   export const images = [
     {
       alt: 'Cosmic timetraveler',
@@ -66,7 +70,7 @@
       <div class="mt-4 md:mt-0">
         <Heading tag="h2" class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Take #CtrlBlk of your browsing experience.</Heading>
         <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Enjoy an Ad free browsing experience, without Video Ads or Popups. Stop Ads from manipulating you, protect your data and experience a faster web.</p>
-        <a href="https://chromewebstore.google.com/" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+        <a href="{CWS_DOWNLOAD_URL}" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
           Download now
           <ArrowRightSolid size="md" class="ml-2 -mr-1" />
         </a>
@@ -117,7 +121,7 @@
     </FeatureDefault>
 
     <div class="my-8 text-center">
-      <Button href="https://chromewebstore.google.com/" target="_blank">
+      <Button href="{CWS_DOWNLOAD_URL}" target="_blank">
         Download now!
         <ArrowRightSolid size="md" class="ml-2 -mr-1" />
       </Button>
@@ -142,7 +146,7 @@
     </div>
 
     <div class="my-8">
-      <Button href="https://chromewebstore.google.com/" target="_blank">
+      <Button href="{CWS_DOWNLOAD_URL}" target="_blank">
         Try for yourself!
         <ArrowRightSolid size="md" class="ml-2 -mr-1" />
       </Button>

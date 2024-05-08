@@ -3,6 +3,8 @@
   import { WalletOutline, UserAddOutline, StarOutline } from 'flowbite-svelte-icons';
 
   import Recommend from './Recommend.svelte';
+
+  import { CWS_REVIEW_URL } from '$lib/consts.js';
 </script>
 
 
@@ -42,10 +44,10 @@
             <div class="text-sm space-y-2">
                 <p>Rating CtrlBlk helps other users to find it on the Chrome Web Store.</p>
 
-                <A href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh/reviews"
+                <A href="{CWS_REVIEW_URL}"
                     target="_blank" class="text-gray-700">Rate #CtrlBlk on the Chrome Web Store</A>
 
-                <a href="https://chromewebstore.google.com/" target="_blank">
+                <a href="{CWS_REVIEW_URL}" target="_blank">
                     <Rating id="example-1b" total={5} size={40} rating={4.5} />
                 </a>
             </div>

@@ -10,7 +10,11 @@ const baseUrl = new Map([
 export const getAdReportsURL = `https://ad-reports.workers.${baseUrl}/adreports`;
 //export const getAdReportsURL = "http://localhost:8787/adreports";
 
-export const CWS_DOWNLOAD_URL = "https://chromewebstore.google.com/";
+export const CWS_DOWNLOAD_URL = "https://chromewebstore.google.com/detail/ctrlblock/gaccmpadgpjgakodbmbjmefanhjppepj";
+export const CWS_REVIEW_URL = `${CWS_DOWNLOAD_URL}/reviews`;
+
+
+export const GITHUB_URL = "https://github.com/ctrlblk";
 
 export const SUPPORT_EMAIL = `info@${baseUrl}`;
 
