@@ -1,4 +1,4 @@
-import { getAdReportsURL } from "$lib/consts.js";
+import { GET_ADREPORTS_URL } from "$lib/consts.js";
 
 function adReportFromData(adReport) {
     const url = new URL(adReport.data.page.url);
@@ -25,7 +25,7 @@ export async function getAdReports(uuids) {
     for (let uuid of uuids) {
         let response;
         try {
-            response = await fetch(`${getAdReportsURL}/${uuid}`);
+            response = await fetch(`${GET_ADREPORTS_URL}/${uuid}`);
         } catch (error) {
             continue;
         }

@@ -7,12 +7,10 @@ const baseUrl = new Map([
     [false, "ctrlblk.com"],
 ]).get(DEVELOPMENT);
 
-export const getAdReportsURL = `https://ad-reports.workers.${baseUrl}/adreports`;
-//export const getAdReportsURL = "http://localhost:8787/adreports";
+export const GET_ADREPORTS_URL = `https://ad-reports.workers.${baseUrl}/adreports`;
 
 export const CWS_DOWNLOAD_URL = "https://chromewebstore.google.com/detail/ctrlblock/gaccmpadgpjgakodbmbjmefanhjppepj";
 export const CWS_REVIEW_URL = `${CWS_DOWNLOAD_URL}/reviews`;
-
 
 export const GITHUB_URL = "https://github.com/ctrlblk";
 
