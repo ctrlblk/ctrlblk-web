@@ -29,12 +29,12 @@
   export const images = [
     {
       alt: 'Cosmic timetraveler',
-      src: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg',
+      src: '/images/Carousel-1.png',
       title: 'cosmic-timetraveler-pYyOZ8q7AII-unsplash.com'
     },
     {
       alt: 'Cosmic timetraveler',
-      src: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg',
+      src: '/images/Carousel-1.png',
       title: 'cosmic-timetraveler-pYyOZ8q7AII-unsplash.com'
     },
   ];
