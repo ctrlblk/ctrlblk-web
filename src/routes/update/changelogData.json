@@ -1,5 +1,48 @@
 [
-
+    {
+        "version": "0.3.0",
+        "date": "2024-05-15",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.0",
+        "changes": [
+            {
+                "description": "Hide empty categories in Filterlists component",
+                "githubSlug": "GitHub@fe7d4ea",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/fe7d4eaa82fc85b693741065b4f01a29ac460464"
+            },
+            {
+                "description": "Changed Pause component flow, now exception & reload first",
+                "githubSlug": "GitHub@75cd832",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/75cd832110a01f58a2e95372e345911d75489b2f"
+            },
+            {
+                "description": "Fixed an issue with css filter injection that prevented css filters too work properly",
+                "githubSlug": "GitHub@9017ad1",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/9017ad138f4310783779ba18c0f82e10cbcee3f4"
+            },
+            {
+                "description": "Added button to directly send an ad report to Pause component",
+                "githubSlug": "GitHub@06260d76",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/06260d765492a5e8b78a9c8d07c9698b8e78b907"
+            },
+            {
+                "description": "Updated ctrlblk-filter dependency",
+                "githubSlug": "GitHub@1bab56f",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/1bab56f13f3d036796a03dbd82455eb9515a6a8e"
+            }
+        ]
+    },
+    {
+        "version": "0.2.1",
+        "date": "2024-05-14",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.2.1",
+        "changes": [
+            {
+                "description": "Updated ctrlblk-filters ref to replace direct uAsset dependency",
+                "githubSlug": "GitHub@8f0f9e7",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/8f0f9e75693374e976db890eb1163763aa785fd5"
+            }
+        ]
+    },
     {
         "version": "0.2.0",
         "date": "2024-05-07",
