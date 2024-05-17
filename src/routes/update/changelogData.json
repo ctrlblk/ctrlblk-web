@@ -1,5 +1,32 @@
 [
     {
+        "version": "0.4.0",
+        "date": "2024-05-21",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
+        "changes": [
+            {
+                "description": "Updated ctrlblk-filter dependency",
+                "githubSlug": "GitHub@472a790",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/472a7901a30536104b158fffc41f6e99bfd74368"
+            },
+            {
+                "description": "Added description key to manifest.json in hopes of getting rid of duplicate description copy in CWS",
+                "githubSlug": "GitHub@e08748f",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/e08748f2df95adc1b88f0c80587abdc545006787"
+            },
+            {
+                "description": "Fixed TypeError in case tabChangedHandler runs before $exceptions have been initialized",
+                "githubSlug": "GitHub@3c3edca",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/3c3edca194fdd858710817239636e24a4aece635"
+            },
+            {
+                "description": "Changed visible name of the extension to CtrlBlock",
+                "githubSlug": "GitHub@05696db",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/05696dbbfd0c84299778d87e5dbb08abe7b756f9"
+            }
+        ]
+    },
+    {
         "version": "0.3.1",
         "date": "2024-05-16",
         "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.1",
