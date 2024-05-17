@@ -1,5 +1,17 @@
 [
     {
+        "version": "0.3.1",
+        "date": "2024-05-16",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.1",
+        "changes": [
+            {
+                "description": "Updated ctrlblk-filter dependency",
+                "githubSlug": "GitHub@9d63bf2",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/9d63bf2a8294a833ef904302526f8ee97c5166d9"
+            }
+        ]
+    },
+    {
         "version": "0.3.0",
         "date": "2024-05-15",
         "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.0",
