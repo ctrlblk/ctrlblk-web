@@ -46,11 +46,11 @@
 
             <div class="my-3">
                 <p class="float-left font-normal text-gray-700 leading-tight" title="{adReport.datetime}">{formatDate(adReport.datetime)}</p>
-                <Button pill={true} outline={true} class="float-right !p-2 mx-1" title="Works for me!">
+                <Button pill={true} outline={true} class="float-right !p-2 mx-1" title="Works for me!" href="{adReport.issueLink}" target="_blank">
                     <ThumbsUpOutline class="w-3 h-3" />
                 </Button>
 
-                <Button pill={true} outline={true} size="lg" class="float-right !p-2 mx-1" title="Doesn't work for me!">
+                <Button pill={true} outline={true} size="lg" class="float-right !p-2 mx-1" title="Doesn't work for me!" href="{adReport.issueLink}" target="_blank">
                     <ThumbsDownOutline class="w-3 h-3" />
                 </Button>
             </div>
