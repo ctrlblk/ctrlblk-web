@@ -37,6 +37,10 @@ function main() {
     });
 
     rl.on('close', () => {
+        // Add last change if any
+        if (change !== undefined) {
+            changes.push(change);
+        }
         console.log(JSON.stringify(changes, undefined, 4));
         process.exit(0);
     });
