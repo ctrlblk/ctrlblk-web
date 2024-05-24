@@ -28,14 +28,24 @@
 
   export const images = [
     {
-      alt: 'Cosmic timetraveler',
-      src: '/images/Carousel-1.png',
-      title: 'cosmic-timetraveler-pYyOZ8q7AII-unsplash.com'
+      alt: 'Blocking ads on a website',
+      src: '/images/carousel/blocking-ads-on-a-website.jpg',
+      title: 'Blocking ads on a website'
     },
     {
-      alt: 'Cosmic timetraveler',
-      src: '/images/Carousel-1.png',
-      title: 'cosmic-timetraveler-pYyOZ8q7AII-unsplash.com'
+      alt: 'Blocking popups on a website',
+      src: '/images/carousel/blocking-popups-on-a-website.jpg',
+      title: 'Blocking ads on a website'
+    },
+    {
+      alt: 'Blocking video ads on youtube',
+      src: '/images/carousel/blocking-video-ads-on-youtube.jpg',
+      title: 'Blocking ads on a website'
+    },
+    {
+      alt: 'Sending an AdReport',
+      src: '/images/carousel/sending-an-ad-report.jpg',
+      title: 'Blocking ads on a website'
     },
   ];
 
@@ -76,9 +86,7 @@
         </a>
       </div>
 
-      <Carousel {images} duration="5000" let:Indicators>
-        <Indicators />
-      </Carousel>
+      <Carousel {images} imgClass="object-contain h-full w-fit" duration="5000" />
     </div>
   </Section>
 
