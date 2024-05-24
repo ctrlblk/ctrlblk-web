@@ -1,5 +1,49 @@
 [
     {
+        "version": "0.4.1",
+        "date": "2024-05-27",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
+        "changes": [
+            {
+                "description": "Bumped version to 0.4.1",
+                "githubSlug": "GitHub@b8cd239",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/b8cd23983b613b9009311648f1d4cbf28027bf20"
+            },
+            {
+                "description": "Updated ctrlblk-filter dependency",
+                "githubSlug": "GitHub@6b36dc9",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/6b36dc9961b27e61c867777a85fc6f2d065d6e32"
+            },
+            {
+                "description": "Changed primary color to zinc",
+                "githubSlug": "GitHub@d9e1549",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/d9e1549f69be81ff8eb1e17c8b8cfb207076002f"
+            }
+        ]
+    },
+    {
+        "version": "0.4.0",
+        "date": "2024-05-21",
+        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
+        "changes": [
+            {
+                "description": "Bumped version to 0.4.1",
+                "githubSlug": "GitHub@b8cd239",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/b8cd23983b613b9009311648f1d4cbf28027bf20"
+            },
+            {
+                "description": "Updated ctrlblk-filter dependency",
+                "githubSlug": "GitHub@6b36dc9",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/6b36dc9961b27e61c867777a85fc6f2d065d6e32"
+            },
+            {
+                "description": "Changed primary color to zinc",
+                "githubSlug": "GitHub@d9e1549",
+                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/d9e1549f69be81ff8eb1e17c8b8cfb207076002f"
+            }
+        ]
+    },
+    {
         "version": "0.4.0",
         "date": "2024-05-21",
         "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
