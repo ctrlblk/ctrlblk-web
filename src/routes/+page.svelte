@@ -104,7 +104,7 @@
       <FeatureItem>
         <svelte:fragment slot="icon"><CheckSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
         <svelte:fragment slot="h3">No Video Ads</svelte:fragment>
-        <svelte:fragment slot="paragraph">No more unskipapple Video Ads. Enjoy your favorite video content without interruptions.</svelte:fragment>
+        <svelte:fragment slot="paragraph">No more unskippable Video Ads. Enjoy your favorite video content without interruptions.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><AnnotationSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
@@ -114,17 +114,17 @@
       <FeatureItem>
         <svelte:fragment slot="icon"><BrainSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
         <svelte:fragment slot="h3">Stop being manipulated</svelte:fragment>
-        <svelte:fragment slot="paragraph">Advertisers trick and manipulate you into liking their products more by exploiting cognetive biases. Prevent being manipulated by blocking ads.</svelte:fragment>
+        <svelte:fragment slot="paragraph">Advertisers trick and manipulate you into liking their products more by exploiting cognitive biases. Prevent being manipulated by blocking ads.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><LandmarkSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
         <svelte:fragment slot="h3">Keep your data safe</svelte:fragment>
-        <svelte:fragment slot="paragraph">Block advertiser from collecting your data and following you arround on the web.</svelte:fragment>
+        <svelte:fragment slot="paragraph">Block advertiser from collecting your data and following you around on the web.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><RocketSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
         <svelte:fragment slot="h3">Faster surfing</svelte:fragment>
-        <svelte:fragment slot="paragraph">Enjoy a more snappy browsing experience. Websites without ads load up to 10x faster, content no longer jumps arround by slow loading Ads!</svelte:fragment>
+        <svelte:fragment slot="paragraph">Enjoy a more snappy browsing experience. Websites without ads load up to 10x faster, content no longer jumps around by slow loading Ads!</svelte:fragment>
       </FeatureItem>
     </FeatureDefault>
 
