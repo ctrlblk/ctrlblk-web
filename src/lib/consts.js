@@ -14,6 +14,8 @@ export const CWS_REVIEW_URL = `${CWS_DOWNLOAD_URL}/reviews`;
 
 export const GITHUB_URL = "https://github.com/ctrlblk";
 
+export const BLOG_URL = "https://blog.ctrlblk.com/";
+
 export const SUPPORT_EMAIL = `info@${baseUrl}`;
 
 export const RECOMMEND_EMAIL = `recommend@${baseUrl}`;
