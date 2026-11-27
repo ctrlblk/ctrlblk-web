@@ -15,6 +15,7 @@ To run CtrlBlk Web locally:
 $ git clone https://github.com/ctrlblk/ctrlblck-web.git
 $ cd ctrblk
 $ npm install
+$ cp .env.example .env
 $ npm run dev
 ```
 
@@ -24,11 +25,14 @@ To build the page in order to host it somewhere:
 $ git clone https://github.com/ctrlblk/ctrlblck-web.git
 $ cd ctrblk
 $ npm install
+$ cp .env.example .env
 $ npm run build
 $ ls .svelte-kit/output
 ```
 
 Output is placed under `.svelte-kit`.
+
+The build needs `PUBLIC_TURNSTILE_SITE_KEY` and `PRIVATE_TURNSTILE_SECRET_KEY`. [`.env.example`](.env.example) holds Cloudflare's Turnstile test keys for local use, and the Cloudflare Pages project sets the real ones.
 
 ### Cloudflare
 
