@@ -3,7 +3,6 @@
 
     import { page } from '$app/stores';
 
-    import AdReports from './AdReports.svelte';
     import ChangeLog from './ChangeLog.svelte';
     import SupportCTA from './SupportCTA.svelte';
 
@@ -12,11 +11,7 @@
     $: {
         const urlParams = $page.url.searchParams
         for (let [key, value] of urlParams.entries()) {
-            if (key === "matchingAdReports") {
-                params[key] = urlParams.getAll(key);
-            } else {
-                params[key] = value;
-            }
+            params[key] = value;
         }
     };
 </script>
@@ -27,7 +22,6 @@
 
     <div class="grid grid-cols-3 gap-4">
         <div class="col-span-2 space-y-8">
-            <AdReports matchingAdReports={params.matchingAdReports || []} />
             <ChangeLog versionFrom={params.from} versionTo={params.to}/>
         </div>
         <div>

@@ -7,8 +7,6 @@ const baseUrl = new Map([
     [false, "ctrlblk.com"],
 ]).get(DEVELOPMENT);
 
-export const GET_ADREPORTS_URL = `https://api.${baseUrl}/adreports`;
-
 export const CWS_DOWNLOAD_URL = "https://chromewebstore.google.com/detail/ctrlblock/gaccmpadgpjgakodbmbjmefanhjppepj";
 export const CWS_REVIEW_URL = `${CWS_DOWNLOAD_URL}/reviews`;
 
