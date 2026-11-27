@@ -1,31 +1,32 @@
 <script>
-    import { Heading } from 'flowbite-svelte';
+	import { Heading } from 'flowbite-svelte';
 
-    import { page } from '$app/stores';
+	import { page } from '$app/stores';
 
-    import ChangeLog from './ChangeLog.svelte';
-    import SupportCTA from './SupportCTA.svelte';
+	import ChangeLog from './ChangeLog.svelte';
+	import SupportCTA from './SupportCTA.svelte';
 
-    let params = {};
+	let params = {};
 
-    $: {
-        const urlParams = $page.url.searchParams
-        for (let [key, value] of urlParams.entries()) {
-            params[key] = value;
-        }
-    };
+	$: {
+		const urlParams = $page.url.searchParams;
+		for (let [key, value] of urlParams.entries()) {
+			params[key] = value;
+		}
+	}
 </script>
 
-<div class="mx-auto max-w-screen-xl my-8 space-y-8">
+<div class="mx-auto my-8 max-w-screen-xl space-y-8">
+	<Heading tag="h1" customSize="text-2xl font-bold"
+		>CtrlBlock has been updated to version {params.to}.</Heading
+	>
 
-    <Heading tag="h1" customSize="text-2xl font-bold">CtrlBlock has been updated to version {params.to}.</Heading>
-
-    <div class="grid grid-cols-3 gap-4">
-        <div class="col-span-2 space-y-8">
-            <ChangeLog versionFrom={params.from} versionTo={params.to}/>
-        </div>
-        <div>
-            <SupportCTA />
-        </div>
-    </div>
+	<div class="grid grid-cols-3 gap-4">
+		<div class="col-span-2 space-y-8">
+			<ChangeLog versionFrom={params.from} versionTo={params.to} />
+		</div>
+		<div>
+			<SupportCTA />
+		</div>
+	</div>
 </div>

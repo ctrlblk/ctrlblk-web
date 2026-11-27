@@ -1,161 +1,161 @@
 [
-    {
-        "version": "0.4.1",
-        "date": "2024-05-27",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
-        "changes": [
-            {
-                "description": "Bumped version to 0.4.1",
-                "githubSlug": "GitHub@b8cd239",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/b8cd23983b613b9009311648f1d4cbf28027bf20"
-            },
-            {
-                "description": "Updated ctrlblk-filter dependency",
-                "githubSlug": "GitHub@6b36dc9",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/6b36dc9961b27e61c867777a85fc6f2d065d6e32"
-            },
-            {
-                "description": "Changed primary color to zinc",
-                "githubSlug": "GitHub@d9e1549",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/d9e1549f69be81ff8eb1e17c8b8cfb207076002f"
-            }
-        ]
-    },
-    {
-        "version": "0.4.0",
-        "date": "2024-05-21",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
-        "changes": [
-            {
-                "description": "Bumped version to 0.4.1",
-                "githubSlug": "GitHub@b8cd239",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/b8cd23983b613b9009311648f1d4cbf28027bf20"
-            },
-            {
-                "description": "Updated ctrlblk-filter dependency",
-                "githubSlug": "GitHub@6b36dc9",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/6b36dc9961b27e61c867777a85fc6f2d065d6e32"
-            },
-            {
-                "description": "Changed primary color to zinc",
-                "githubSlug": "GitHub@d9e1549",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/d9e1549f69be81ff8eb1e17c8b8cfb207076002f"
-            }
-        ]
-    },
-    {
-        "version": "0.4.0",
-        "date": "2024-05-21",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
-        "changes": [
-            {
-                "description": "Updated ctrlblk-filter dependency",
-                "githubSlug": "GitHub@472a790",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/472a7901a30536104b158fffc41f6e99bfd74368"
-            },
-            {
-                "description": "Added description key to manifest.json in hopes of getting rid of duplicate description copy in CWS",
-                "githubSlug": "GitHub@e08748f",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/e08748f2df95adc1b88f0c80587abdc545006787"
-            },
-            {
-                "description": "Fixed TypeError in case tabChangedHandler runs before $exceptions have been initialized",
-                "githubSlug": "GitHub@3c3edca",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/3c3edca194fdd858710817239636e24a4aece635"
-            },
-            {
-                "description": "Changed visible name of the extension to CtrlBlock",
-                "githubSlug": "GitHub@05696db",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/05696dbbfd0c84299778d87e5dbb08abe7b756f9"
-            }
-        ]
-    },
-    {
-        "version": "0.3.1",
-        "date": "2024-05-16",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.1",
-        "changes": [
-            {
-                "description": "Updated ctrlblk-filter dependency",
-                "githubSlug": "GitHub@9d63bf2",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/9d63bf2a8294a833ef904302526f8ee97c5166d9"
-            }
-        ]
-    },
-    {
-        "version": "0.3.0",
-        "date": "2024-05-15",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.0",
-        "changes": [
-            {
-                "description": "Hide empty categories in Filterlists component",
-                "githubSlug": "GitHub@fe7d4ea",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/fe7d4eaa82fc85b693741065b4f01a29ac460464"
-            },
-            {
-                "description": "Changed Pause component flow, now exception & reload first",
-                "githubSlug": "GitHub@75cd832",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/75cd832110a01f58a2e95372e345911d75489b2f"
-            },
-            {
-                "description": "Fixed an issue with css filter injection that prevented css filters too work properly",
-                "githubSlug": "GitHub@9017ad1",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/9017ad138f4310783779ba18c0f82e10cbcee3f4"
-            },
-            {
-                "description": "Added button to directly send an ad report to Pause component",
-                "githubSlug": "GitHub@06260d76",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/06260d765492a5e8b78a9c8d07c9698b8e78b907"
-            },
-            {
-                "description": "Updated ctrlblk-filter dependency",
-                "githubSlug": "GitHub@1bab56f",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/1bab56f13f3d036796a03dbd82455eb9515a6a8e"
-            }
-        ]
-    },
-    {
-        "version": "0.2.1",
-        "date": "2024-05-14",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.2.1",
-        "changes": [
-            {
-                "description": "Updated ctrlblk-filters ref to replace direct uAsset dependency",
-                "githubSlug": "GitHub@8f0f9e7",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/8f0f9e75693374e976db890eb1163763aa785fd5"
-            }
-        ]
-    },
-    {
-        "version": "0.2.0",
-        "date": "2024-05-07",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.2.0",
-        "changes": [
-            {
-                "description": "Updated ctrblk-filters and uAssets dependency",
-                "githubSlug": "GitHub@96b98b8",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/96b98b8af725c3f4982a537f04772514f9ac15c6"
-            },
-            {
-                "description": "Remove all non DNR filters that include a url pointing to a javascipt file",
-                "githubSlug": "GitHub@931398b",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/931398baf5ad1d4226ac291b1772b8540fa77d16"
-            },
-            {
-                "description": "Replace uBO's make-rulesets.js with \"inhouse\" ruleset creation script",
-                "githubSlug": "GitHub@e373d31",
-                "githubLink": "https://github.com/ctrlblk/ctrlblk/commit/e373d319cd2b39dca198bdb9dee90abe920e0f28"
-            }
-        ]
-    },
-    {
-        "version": "0.1.0",
-        "date": "2024-04-09",
-        "githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.1.0",
-        "changes": [
-            {
-                "description": "Initial Release"
-            }
-        ]
-    }
+	{
+		"version": "0.4.1",
+		"date": "2024-05-27",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
+		"changes": [
+			{
+				"description": "Bumped version to 0.4.1",
+				"githubSlug": "GitHub@b8cd239",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/b8cd23983b613b9009311648f1d4cbf28027bf20"
+			},
+			{
+				"description": "Updated ctrlblk-filter dependency",
+				"githubSlug": "GitHub@6b36dc9",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/6b36dc9961b27e61c867777a85fc6f2d065d6e32"
+			},
+			{
+				"description": "Changed primary color to zinc",
+				"githubSlug": "GitHub@d9e1549",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/d9e1549f69be81ff8eb1e17c8b8cfb207076002f"
+			}
+		]
+	},
+	{
+		"version": "0.4.0",
+		"date": "2024-05-21",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
+		"changes": [
+			{
+				"description": "Bumped version to 0.4.1",
+				"githubSlug": "GitHub@b8cd239",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/b8cd23983b613b9009311648f1d4cbf28027bf20"
+			},
+			{
+				"description": "Updated ctrlblk-filter dependency",
+				"githubSlug": "GitHub@6b36dc9",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/6b36dc9961b27e61c867777a85fc6f2d065d6e32"
+			},
+			{
+				"description": "Changed primary color to zinc",
+				"githubSlug": "GitHub@d9e1549",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/d9e1549f69be81ff8eb1e17c8b8cfb207076002f"
+			}
+		]
+	},
+	{
+		"version": "0.4.0",
+		"date": "2024-05-21",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.4.0",
+		"changes": [
+			{
+				"description": "Updated ctrlblk-filter dependency",
+				"githubSlug": "GitHub@472a790",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/472a7901a30536104b158fffc41f6e99bfd74368"
+			},
+			{
+				"description": "Added description key to manifest.json in hopes of getting rid of duplicate description copy in CWS",
+				"githubSlug": "GitHub@e08748f",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/e08748f2df95adc1b88f0c80587abdc545006787"
+			},
+			{
+				"description": "Fixed TypeError in case tabChangedHandler runs before $exceptions have been initialized",
+				"githubSlug": "GitHub@3c3edca",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/3c3edca194fdd858710817239636e24a4aece635"
+			},
+			{
+				"description": "Changed visible name of the extension to CtrlBlock",
+				"githubSlug": "GitHub@05696db",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/05696dbbfd0c84299778d87e5dbb08abe7b756f9"
+			}
+		]
+	},
+	{
+		"version": "0.3.1",
+		"date": "2024-05-16",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.1",
+		"changes": [
+			{
+				"description": "Updated ctrlblk-filter dependency",
+				"githubSlug": "GitHub@9d63bf2",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/9d63bf2a8294a833ef904302526f8ee97c5166d9"
+			}
+		]
+	},
+	{
+		"version": "0.3.0",
+		"date": "2024-05-15",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.3.0",
+		"changes": [
+			{
+				"description": "Hide empty categories in Filterlists component",
+				"githubSlug": "GitHub@fe7d4ea",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/fe7d4eaa82fc85b693741065b4f01a29ac460464"
+			},
+			{
+				"description": "Changed Pause component flow, now exception & reload first",
+				"githubSlug": "GitHub@75cd832",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/75cd832110a01f58a2e95372e345911d75489b2f"
+			},
+			{
+				"description": "Fixed an issue with css filter injection that prevented css filters too work properly",
+				"githubSlug": "GitHub@9017ad1",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/9017ad138f4310783779ba18c0f82e10cbcee3f4"
+			},
+			{
+				"description": "Added button to directly send an ad report to Pause component",
+				"githubSlug": "GitHub@06260d76",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/06260d765492a5e8b78a9c8d07c9698b8e78b907"
+			},
+			{
+				"description": "Updated ctrlblk-filter dependency",
+				"githubSlug": "GitHub@1bab56f",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/1bab56f13f3d036796a03dbd82455eb9515a6a8e"
+			}
+		]
+	},
+	{
+		"version": "0.2.1",
+		"date": "2024-05-14",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.2.1",
+		"changes": [
+			{
+				"description": "Updated ctrlblk-filters ref to replace direct uAsset dependency",
+				"githubSlug": "GitHub@8f0f9e7",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/8f0f9e75693374e976db890eb1163763aa785fd5"
+			}
+		]
+	},
+	{
+		"version": "0.2.0",
+		"date": "2024-05-07",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.2.0",
+		"changes": [
+			{
+				"description": "Updated ctrblk-filters and uAssets dependency",
+				"githubSlug": "GitHub@96b98b8",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/96b98b8af725c3f4982a537f04772514f9ac15c6"
+			},
+			{
+				"description": "Remove all non DNR filters that include a url pointing to a javascipt file",
+				"githubSlug": "GitHub@931398b",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/931398baf5ad1d4226ac291b1772b8540fa77d16"
+			},
+			{
+				"description": "Replace uBO's make-rulesets.js with \"inhouse\" ruleset creation script",
+				"githubSlug": "GitHub@e373d31",
+				"githubLink": "https://github.com/ctrlblk/ctrlblk/commit/e373d319cd2b39dca198bdb9dee90abe920e0f28"
+			}
+		]
+	},
+	{
+		"version": "0.1.0",
+		"date": "2024-04-09",
+		"githubLink": "https://github.com/ctrlblk/ctrlblk/releases/tag/v0.1.0",
+		"changes": [
+			{
+				"description": "Initial Release"
+			}
+		]
+	}
 ]
