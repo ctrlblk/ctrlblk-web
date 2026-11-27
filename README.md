@@ -6,8 +6,8 @@ This is the code behind [ctrblk.com](https://ctrlblk.com), the homepage for [Ctr
 
 Prerequisites:
 
-- [nodejs](https://nodejs.org/en) >= v21.2.0
-- [npm](https://www.npmjs.com/) 10.2.4
+- [nodejs](https://nodejs.org/en) 24.22.3, as pinned in [`.node-version`](.node-version)
+- [npm](https://www.npmjs.com/), the version bundled with that Node.js release
 
 To run CtrlBlk Web locally:
 
@@ -35,6 +35,8 @@ Output is placed under `.svelte-kit`.
 CtrlBlk Web is designed to be hosted on cloudflare pages. Follow the guide below to deploy it to cloudflare pages:
 
 [Deploy via the Cloudflare dashboard](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/#deploy-via-the-cloudflare-dashboard)
+
+The Cloudflare Pages build uses the Node.js version in [`.node-version`](.node-version). Don't set `NODE_VERSION` in the Pages project's variables, because it would override that file.
 
 ## About
 
