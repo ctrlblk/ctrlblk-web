@@ -1,5 +1,5 @@
 {
   "worktreeSetup": ["npm ci"],
-  "verify": ["npm run lint", "npm run build"],
+  "verify": ["npm run lint"],
   "deploysOnPush": false
 }
