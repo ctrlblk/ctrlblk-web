@@ -2,9 +2,8 @@ import { PRIVATE_TURNSTILE_SECRET_KEY } from '$env/static/private';
 
 const TURNSTILE_VERIFY_URL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
-
 export async function turnstileVerify(response, remoteip) {
-    let formData = new FormData();
+	let formData = new FormData();
 
 	formData.append('secret', PRIVATE_TURNSTILE_SECRET_KEY);
 	formData.append('response', response);
@@ -12,16 +11,16 @@ export async function turnstileVerify(response, remoteip) {
 
 	const result = await fetch(TURNSTILE_VERIFY_URL, {
 		body: formData,
-		method: 'POST',
+		method: 'POST'
 	});
 
 	const outcome = await result.json();
 
 	if (outcome.success) {
-        return true;
+		return true;
 	}
 
-    console.log('Turnstile verification failed', outcome);
+	console.log('Turnstile verification failed', outcome);
 
-    throw new Error('Turnstile verification failed');
+	throw new Error('Turnstile verification failed');
 }

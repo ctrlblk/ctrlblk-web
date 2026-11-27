@@ -25,7 +25,7 @@ $ git clone https://github.com/ctrlblk/ctrlblck-web.git
 $ cd ctrblk
 $ npm install
 $ npm run build
-$ ls .svelte-kit/output 
+$ ls .svelte-kit/output
 ```
 
 Output is placed under `.svelte-kit`.
