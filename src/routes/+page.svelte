@@ -22,17 +22,12 @@
 		{
 			alt: 'Blocking popups on a website',
 			src: '/images/carousel/blocking-popups-on-a-website.jpg',
-			title: 'Blocking ads on a website'
+			title: 'Blocking popups on a website'
 		},
 		{
-			alt: 'Blocking video ads on youtube',
+			alt: 'Blocking video ads on YouTube',
 			src: '/images/carousel/blocking-video-ads-on-youtube.jpg',
-			title: 'Blocking ads on a website'
-		},
-		{
-			alt: 'Sending an AdReport',
-			src: '/images/carousel/sending-an-ad-report.jpg',
-			title: 'Blocking ads on a website'
+			title: 'Blocking video ads on YouTube'
 		}
 	];
 
